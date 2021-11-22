@@ -4,7 +4,7 @@ import discord
 from discord.ext import commands
 from discord.utils import get
 
-token = 'ODc3OTczMzY0Nzk3NDgxMDEx.YR6aag.5IhyqL81tcIYW_c8VkSpOpgo8Ek'
+token = 'dadadadaododod dee"
 client = discord.Client()
 
 @client.event
