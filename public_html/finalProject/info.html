@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            CS Project Country Data
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>CS Project Country Data</h1>
+        <h2>Name</h2>
+        <p>Rafayet Hossain is working on the project.</p>
+        <h2>Project links</h2>
+        <p>The first version of the project, <a href="http://moe.stuy.edu/~rhossain30/finalProject/v10/home.html">v10</a></p>
+        <p>The second version of the project, <a href="http://moe.stuy.edu/~rhossain30/finalProject/v14/home.html">v14</a></p>
+        <h2> Description </h2>
+        <p>This project is meant to document certain details and characteristics of different countries. In this case I chose 25 different countries and show graphs of things such as GDP, Population, land area, phone usage, etc. and compare data with different countries.</p>
+        <h2>Instructions</h2>
+        <p>Click on the links of the website on "Project links" (use v14 for latest version) and use the nav bar to go through the country data sets.</p>
+        <h2>How it works</h2>
+        <p>The data sets, especially the graphs on the website, were made using python by processing files downloaded from the internet, with valid sources. These are .csv files which become lists, and then it is read to make graphs. The graphs are then displayed on web pages using HTML files. Also, some of the websites such as the ones on HTMLWeb and countries.html were made with python.</p>
+        <h2>List of Files</h2>
+        <p>The file <b>AAFinal.py</b> is the python program used to do all of the data processing, such as downloading/extracting the zip files, creating lists using the csv files, and making graphs using the data provided.</p>
+        <p>The file <b>countryrandom.py</b>is a Python file that displays itself as a web page, as it will randomly change the country that is displayed when the page refreshes.</p>
+        <p>The file <b>wikipedia-iso-country-codes.csv</b> contains the data for the countries' names, 3 letter codes and 2 letter codes. We need this because the websites do not use the country name for downloading, but instead use the 3 letter or 2 letter codes to access the information. </p>
+        <p><b>all.html</b> shows the data of all countries into 7 graphs.</p>
+        <p><b>country.html</b>shows the lists of all countries to view their html files.</p>
+        <p><b>home.html</b> shows the home page</p>
+        <p><b>style.css</b> is the file used to customize the html files to give it a better look.
+        <p>The <b>(country).zip</b> files are downloaded from the internet which contain the csv files needed</p>
+        <p>The <b>(country).csv</b> files contain all of the recorded data from the countries, and are used when making graphs.</p>
+        <p>The graphs on the <b>/Graphs</b> folder contain all of the .png files that are needed in order to present the information on the website.</p>
+        <p>The HTML files on <b>/HTMLWeb/</b> are the HTML website files that show data for every country</p>
+        <h2>Bugs and Side notes</h2>
+        <p>Sometimes the graphs will cause a sudden climb, this is mostly because data before that period of time has not been recorded, so it goes from 0 to whatever large number.</p>
+        <p>If a graph is all 0 or does not have any data, it might be because there is no data on that topic.</p>
+        <h2> Sources</h2>
+        <p><a href="https://data.un.org/">UNdata</a></p>
+        <p><a href="https://data.worldbank.org/country ">worldbank.org</a></p>
+        <p><a href="https://gist.github.com/radcliff/f09c0f88344a7fcef373">Unedited country codes CSV</a></p>
+    </body>
+</html>
