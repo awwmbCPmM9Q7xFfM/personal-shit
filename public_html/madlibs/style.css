@@ -1,0 +1,16 @@
+body {
+background-color: black;
+margin-left: 30%;
+margin-right: 30%;
+text-align: center;
+}
+h1   {
+color: white;
+font-family: 'Arial Black',sans-serif;
+}
+p    {
+color: white;
+border: 1px solid;
+padding: 9px;
+font-family: 'Segoe UI Symbol',sans-serif;
+}
